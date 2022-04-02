@@ -1,0 +1,26 @@
+.btn:disabled,
+.btn:disabled:hover,
+.btn:disabled:active{
+    background-color: rgb(95, 91, 91);
+    color: #aca1a1;
+    border-color: rgb(135, 140, 143);
+    cursor: not-allowed;
+}
+.invalid input{
+    border: #b40e0e;
+    background: #fddddd;
+}
+.invalid input:focus{
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+}
+.text-error{
+    color: #b40e0e;
+}
+.form-control {
+    border : none ;
+}
+
+.form_border{
+    border: 2px solid rgb(78, 74, 74) !important;
+}

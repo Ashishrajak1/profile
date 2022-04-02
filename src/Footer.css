@@ -1,0 +1,49 @@
+.footer-main{
+  margin-top:50px ;
+  height: 50vh;
+  background-color:rgb(114, 39, 39);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-icon{
+gap: 3rem;
+color:rgb(44, 33, 33);
+}
+.icons{ 
+width: 1.5rem;
+margin: 0px 10px;
+}
+.f-contant{
+  margin-bottom: 50px;
+  
+}
+.f-contant ul{
+  display: flex;
+}
+
+.ankar-tag {
+margin:12px;
+color: rgb(44, 33, 33) ;
+text-decoration: none;
+font-family: 'Courgette', cursive !important;
+font-size: 1.3rem;
+text-transform:capitalize;
+}
+.ankar-tag:hover{
+  color: rgb(156, 160, 73) !important;
+}
+
+
+
+@media(max-width:768px){
+  .ankar-tag{
+      font-size: 20px;
+      margin:8px;
+  }
+  .f-contant ul{
+   padding: 0px;
+  }
+  
+}
