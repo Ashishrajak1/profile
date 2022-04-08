@@ -1,5 +1,5 @@
 import React from "react";
-import css from "./Footer.css";
+import "./Footer.css";
 import Github from "./Photos/github.png";
 import Instagram from "./Photos/instagram.png";
 import Gmail from "./Photos/gmail.png";

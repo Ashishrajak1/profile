@@ -39,11 +39,14 @@ text-transform:capitalize;
 
 @media(max-width:768px){
   .ankar-tag{
-      font-size: 20px;
-      margin:8px;
+    font-size: 19px;
+    margin: 7px;
   }
+ 
   .f-contant ul{
    padding: 0px;
   }
+  .row {
+    --bs-gutter-x: 0px;}
   
 }
