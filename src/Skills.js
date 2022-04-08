@@ -1,5 +1,5 @@
 import React from "react";
-import css from "./Skills.css";
+import "./Skills.css";
 
 const MySkills = [
   {
@@ -37,7 +37,7 @@ const MysecSkills = [
   {
     title: "bootstrap",
     width: "85%",
-    percentage: "50%",
+    percentage: "60%",
   },
 ];
 
