@@ -95,9 +95,11 @@
        
     }
     .profile-picture{
-       
         margin: 20px;
+        height: 340px;
+        width: 340px;
     }
+    
     .profile-details-role{
         font-size: 20px;
         font-weight: 25px;
