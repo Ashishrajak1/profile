@@ -1,4 +1,4 @@
-import css from "./About.css";
+import "./About.css";
 import aboutphoto from "./Photos/C.jpg";
 const About = () => {
   return (

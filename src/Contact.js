@@ -1,4 +1,4 @@
-import css from "./Contact.css" ;
+import "./Contact.css" ;
 import { useState } from "react";
 const Contact = (props) => {
   const [enteredfullname, SetEnteredfullname] = useState("");
