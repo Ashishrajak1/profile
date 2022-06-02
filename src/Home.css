@@ -1,113 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,400&family=Courgette&family=DM+Serif+Text:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Hurricane&family=Indie+Flower&family=Markazi+Text:wght@400;500;600;700&family=Merienda:wght@400;700&family=Pacifico&family=Red+Hat+Mono:ital,wght@0,300;0,500;1,300&family=Satisfy&family=Vollkorn:ital,wght@0,400;0,500;0,600;1,400&display=swap');
-.profile_container{
-    background-image: url(./Photos/A.jpg);
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,400&family=Courgette&family=DM+Serif+Text:ital@0;1&family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Hurricane&family=Indie+Flower&family=Markazi+Text:wght@400;500;600;700&family=Merienda:wght@400;700&family=Pacifico&family=Red+Hat+Mono:ital,wght@0,300;0,500;1,300&family=Satisfy&family=Vollkorn:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+
+.profile_container {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1038%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1039)'%3e%3c/rect%3e%3cpath d='M1097.15 93.02a0.34 0.34 0 1 0 0.42-0.54z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M253.19 3.71a48.15 48.15 0 1 0-66.73 69.43z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M284.64 454.19L285.55 454.19L285.55 496.35L284.64 496.35z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M117.25 383.59 a8.67 8.67 0 1 0 17.34 0 a8.67 8.67 0 1 0 -17.34 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1041.99 305.06L1074.97 305.06L1074.97 330.68L1041.99 330.68z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M602.42 11.12L634.83 11.12L634.83 43.53L602.42 43.53z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1406.93 278.71 a25.24 25.24 0 1 0 50.48 0 a25.24 25.24 0 1 0 -50.48 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1307.24 122.01L1323.57 122.01L1323.57 138.34L1307.24 138.34z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M532.94 441.8L588.12 441.8L588.12 487.1L532.94 487.1z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M889.42 283.95 a13.69 13.69 0 1 0 27.38 0 a13.69 13.69 0 1 0 -27.38 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M697.76 198.08L747.2 198.08L747.2 247.52L697.76 247.52z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M952.14 136.01a20.58 20.58 0 1 0 19.32-36.34z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M407.01 324.93a24.09 24.09 0 1 0 1.36-48.16z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M892.33 149.51L917.41 149.51L917.41 174.59L892.33 174.59z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M244.29 427.35 a36.54 36.54 0 1 0 73.08 0 a36.54 36.54 0 1 0 -73.08 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M162.2 328.21L213.63 328.21L213.63 346.27L162.2 346.27z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M626.37 147.3L640.66 147.3L640.66 161.59L626.37 161.59z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1303.42 378.41L1352.06 378.41L1352.06 379.47L1303.42 379.47z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M753.74 92.81L763.18 92.81L763.18 100.63L753.74 100.63z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M525.95 156.62L530.24 156.62L530.24 160.91L525.95 160.91z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M709.27 207.85a21.61 21.61 0 1 0 43.22-0.4z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1225.8 503.79a48.37 48.37 0 1 0-94.42-21.04z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M62 443.72L74.2 443.72L74.2 493.27L62 493.27z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1054.5 44.4L1106.71 44.4L1106.71 57.93L1054.5 57.93z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M830.44 56.2 a50.59 50.59 0 1 0 101.18 0 a50.59 50.59 0 1 0 -101.18 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M20.36 279.75L69.31 279.75L69.31 323.27L20.36 323.27z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M695.2 268.6L707.61 268.6L707.61 279.78L695.2 279.78z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M449.1 381.03 a48.94 48.94 0 1 0 97.88 0 a48.94 48.94 0 1 0 -97.88 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1334.29 446.89 a7.13 7.13 0 1 0 14.26 0 a7.13 7.13 0 1 0 -14.26 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M291.9 292.98 a17.49 17.49 0 1 0 34.98 0 a17.49 17.49 0 1 0 -34.98 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1185.76 21.53 a24.79 24.79 0 1 0 49.58 0 a24.79 24.79 0 1 0 -49.58 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1368.96 301.08L1381.34 301.08L1381.34 313.46L1368.96 313.46z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M754.17 509.09a33.54 33.54 0 1 0 4.85 66.9z' stroke='%23037b0b'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1038'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1039'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(47%2c 6%2c 33%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     background-size: cover;
-    display :flex;
+    display: flex;
     align-items: center;
     text-align: center;
 }
-.profile-parent{
+
+.profile-parent {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.profile-picture{
+.profile-picture {
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0px 1px 0px 0px rgb(181, 209, 103);
     border-radius: 50%;
-    height:380px;
+    height: 380px;
     width: 380px;
     margin: 0px 50px 0px 0px;
     background-size: cover;
-   
-}
-.profile-picture-background{
-    height: 92%;
-    width:92%;
-    background-image: url("./Photos/D.jpg");
-   background-size: cover;
-   border-radius:50%;
-   background-repeat:no-repeat;
-   background-position:left 10%; 
-   
 }
 
-.primary-text{
-    margin:10px 20px 50px 10px ;
+.profile-picture-background {
+    height: 92%;
+    width: 92%;
+    background-image: url("./Photos/D.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: left 10%;
+}
+
+.primary-text {
+    margin: 10px 20px 50px 10px;
     font-weight: 700;
-    font-family: 'Cormorant Garamond', serif ;
+    font-family: "Cormorant Garamond", serif;
     font-size: 50px;
     color: white;
 }
-.profile-details-role{
+
+.profile-details-role {
     font-size: 30px;
-    color:#6B8E23 !important;
-    font-weight: 50;
+    color: #c49450 !important;
+    font-weight: 50px;
     line-height: 1.2em;
-    font-family: 'Cormorant Garamond', serif ;
+    font-family: "Cormorant Garamond", serif;
 }
-.Text-typed{
+
+.Text-typed {
     color: chartreuse !important;
-   
 }
+
 .ityped-cursor {
     font-size: 2rem;
     color: chartreuse;
     animation: blink 1s infinite;
-   
 }
- .primary-text .heading_a{
-     background-color: red;
-     padding:0px 5px;
- }
- 
+
+.primary-text .heading_a {
+    background-color: red;
+    padding: 0px 5px;
+}
+
 @keyframes blink {
     50% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
 }
- 
 
-
-@media(max-width:768px){
-    .profile_container{
+@media (max-width: 768px) {
+    .profile_container {
         flex-direction: column;
         align-content: center;
         justify-content: center;
         align-items: center;
-       
+        background-position: center;
+        background-repeat:no-repeat, repeat-y;
     }
 
-    .primary-text{
+    .primary-text {
         font-weight: 300;
         font-size: 20px;
-      
-       
     }
-    .profile-picture{
+
+    .profile-picture {
         margin: 20px;
         height: 310px;
         width: 310px;
     }
-    
-    .profile-details-role{
+
+    .profile-details-role {
         font-size: 20px;
         font-weight: 25px;
     }
+
     .profile-parent {
-        margin-bottom:30px ;
+        margin-bottom: 30px;
         padding: 30px;
     }
-    
 }
-

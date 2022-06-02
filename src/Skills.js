@@ -18,7 +18,7 @@ const MySkills = [
     percentage: "85%",
   },
   {
-    title: "React",
+    title: "ReactJS",
     width: "85%",
     percentage: "70%",
   },
@@ -35,16 +35,18 @@ const MysecSkills = [
     percentage: "85%",
   },
   {
-    title: "bootstrap",
+    title: "Bootstrap",
     width: "85%",
     percentage: "60%",
   },
 ];
 
 function Skills() {
+ 
   return (
+    <div className="top-skills"> <h1 className="skills-name">My Skills</h1> 
     <div className="skills-main">
-      <h1 className="skills-name">My Skills</h1>
+     
       <div className="skills">
         <div className="my-skills-left">
           {MySkills.map((item, index) => (
@@ -65,6 +67,7 @@ function Skills() {
           ))}
         </div>
       </div>
+    </div>
     </div>
   );
 }
