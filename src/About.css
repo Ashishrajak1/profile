@@ -5,8 +5,8 @@
     height: 100vh;
     display: flex;
    align-items: center;
-   background: #648c11;
    color: #fff;
+   background: #648c11;
 }
 .about-left{
     flex: 1;
@@ -84,6 +84,10 @@
     font-size: 20px;
     font-family: 'Vollkorn', serif !important;
 }
+.react-reveal.about-card {
+    animation-duration: 1s !important;
+    animation-delay: 1s !important;
+}
 
 
 @media(max-width:768px){
@@ -128,3 +132,5 @@
       
     }
 }
+
+  

@@ -34,7 +34,7 @@
     align-items: center;
     border: 5px solid;
     border-image: linear-gradient(#ff512f, #dd2476, #1c64ff) 1;
-    animation: rotate 2.5s ease-in infinite;
+    animation: rotate 2.5s ease-in infinite !important;
 }
 .my-skills-right {
     margin: 40px;
@@ -47,7 +47,7 @@
     align-items: center;
     border: 5px solid;
     border-image: linear-gradient(#ff512f, #dd2476, #1c64ff) 1;
-    animation: rotate 2.5s ease-in infinite; 
+    animation: rotate 2.5s ease-in infinite !important; 
 }
 @keyframes rotate {
     50%{
@@ -84,7 +84,10 @@ border-radius: 50px;
    justify-content: space-between;
      
 }
-
+.react-reveal.skills {
+    animation-duration: 2s !important;
+    animation-delay: 0ms !important;
+}
 
 
 @media(max-width:767px){

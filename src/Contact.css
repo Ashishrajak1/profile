@@ -1,3 +1,76 @@
+ .main-contact{
+ }
+.left-contact{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #242329;
+}
+.form-fil{ background-color: transparent !important;}
+form{
+   
+    background-color: transparent !important;
+}
+.right-contact{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    background-color:burlywood ;
+}
+.phoneinputclasses{
+    background-color: #a76a6a;
+    color: aquamarine;
+}
+
+.main-input{
+    position: relative;
+}
+.input{
+    padding:10px;
+    border:none;
+    border-radius:4px;
+    font:inherit;
+    color:#000;
+    outline:2px solid gray;
+}
+.input-label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transition: transform .2s;
+
+}
+.main-input:focus-within label{
+transform: translate(10px, -14px) scale(.8);
+color:#d1c5fc;
+padding-inline: 5px;
+background-color: #242329;
+}
+input:is(:focus, :valid){
+    outline-color:#d1c5fc ;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label
+{
+    color:blueviolet;
+    transform: translateY(-20px);
+
+}
+textarea{
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 0;
+    outline:none;
+    resize: none;
+}
 .btn:disabled,
 .btn:disabled:hover,
 .btn:disabled:active{
@@ -5,8 +78,8 @@
     color: #aca1a1;
     border-color: rgb(135, 140, 143);
     cursor: not-allowed;
-}
-.invalid input{
+} 
+ .invalid input{
     border: #b40e0e;
     background: #fddddd;
 }
@@ -16,11 +89,13 @@
 }
 .text-error{
     color: #b40e0e;
-}
-.form-control {
+} 
+ .form-control {
     border : none ;
+    background-color: transparent;
 }
 
 .form_border{
     border: 2px solid rgb(78, 74, 74) !important;
-}
+}  
+

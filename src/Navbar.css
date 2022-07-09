@@ -1,39 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Pacifico&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Hurricane&family=Pacifico&family=Satisfy&display=swap');
-.navbar-brand{
-    font-size: 30px;
-    color:#fff !important;
-    font-family:'Satisfy', cursive !important;
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Pacifico&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Hurricane&family=Pacifico&family=Satisfy&display=swap");
+.navbar-brand {
+  font-size: 30px;
+  color: #fff !important;
+  font-family: "Satisfy", cursive !important;
+  border-bottom: none !important;
+}
+.navbar {
+  background-color: #000 !important;
+}
+.navbar .nav-link {
+  font-family: "Courgette", cursive !important;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #fff !important;
+}
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+.nav-link:hover {
+  color: rgb(47, 170, 66) !important;
+}
+
+#navbarSupportedContent {
+  justify-content: right;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5em !important;
+  }
+  .active {
     border-bottom: none !important;
-}
-.navbar{
-    background-color:#000 !important;
-    }
-.navbar .nav-link{
-        font-family: 'Courgette', cursive !important;
-         font-size: 1.3rem;
-         text-transform:capitalize; 
-         color: #fff !important;
-    }
-.active{
-        font-weight: bold;
-        border-bottom: 2px solid #fff ;
-    }
- .nav-link:hover{
-        color: rgb(47, 170, 66) !important;
-    }
-   
-#navbarSupportedContent{
-    justify-content: right;
-
-}
-
-@media(max-width:991px){
-    .navbar-brand{
-        font-size: 1.5em !important;
-
-    }
-    .active {
-        border-bottom: none !important;
-    }
+  }
 }
