@@ -3,7 +3,8 @@ import "./Footer.css";
 import Github from "./Photos/github.png";
 import Instagram from "./Photos/instagram.png";
 import Gmail from "./Photos/gmail.png";
- 
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <>
@@ -14,29 +15,29 @@ function Footer() {
               <h1 className="navbar-brand">Ashish</h1>
               <ul>
                 <p>
-                  <a className="ankar-tag" href="/">
+                  <Link className="ankar-tag" to="/">
                     Home
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a className="ankar-tag" href="/about">
+                  <Link className="ankar-tag" to="/about">
                     About
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a className="ankar-tag" href="/service">
+                  <Link className="ankar-tag" to="/service">
                     Services
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a className="ankar-tag" href="/skills">
+                  <Link className="ankar-tag" to="/skills">
                     Skills
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a className="ankar-tag" href="/contact">
+                  <Link className="ankar-tag" to="/contact">
                     Contact
-                  </a>
+                  </Link>
                 </p>
               </ul>
             </div>
@@ -52,7 +53,7 @@ function Footer() {
               >
                 <img className="icons" src={Instagram} alt="Instagram-icon" />
               </a>
-              <a className="icon-tag" href="">
+              <a className="icon-tag" href="#">
                 <img className="icons" src={Gmail} alt="gmail-icon" />
               </a>
             </div>
@@ -60,7 +61,7 @@ function Footer() {
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default Footer;

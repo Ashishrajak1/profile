@@ -15,14 +15,11 @@
 }
 
 .skills-name {
-  display: flex;
-  justify-content: center;
-  color: #000;
-  font-size: 30px;
-  font-weight: 25px;
-  font-family: "Vollkorn", serif !important;
-  padding: 10px;
- 
+  font-weight: 600;
+  font-size: 40px;
+  border-bottom: 2px solid #000;
+  width: 40%;
+  text-align: center;
 }
 .my-skills-left {
   margin: 40px;
@@ -103,8 +100,8 @@
     margin-top: 0px;
   }
   .skills-name {
-    font-size: 20px;
-    padding-top: 10px;
+    font-size:2rem;
+    font-weight: 400;
   }
   .skills-bar {
     height: 5px;

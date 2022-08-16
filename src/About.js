@@ -1,6 +1,13 @@
 import "./About.css";
 import aboutphoto from "./Photos/C.jpg";
 import { Bounce, Zoom } from "react-reveal";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
@@ -10,16 +17,26 @@ const About = () => {
         </Bounce>
       </div>
       <div className="about-main container">
-        <div className="row">
+        <div className="row aboutRow">
           <div className="about-left col-6">
             <div className="about_card">
               <div className="blob"></div>
               <span className="img"></span>
               <h2 className="card__name_">
-                Ashish <br/>
+                Ashish <br />
                 <span>Rajak</span>
               </h2>
-              <p>{/* icons github linkden  twiter*/}</p>
+              <p className="about_p">
+                <Link className="card_icons" to="https://github.com/Ashishrajak1">
+                  <FontAwesomeIcon icon={faGithub} />
+                </Link>
+                <Link className="card_icons" to="https://www.linkedin.com/in/ashish-kumar-rajak-099340220">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </Link>
+                <Link className="card_icons" to="https://twitter.com/ashishk79236712">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </Link>
+              </p>
             </div>
           </div>
           <Bounce>

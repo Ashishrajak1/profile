@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skills.css";
-import Zoom from 'react-reveal/Zoom';
+import Zoom from "react-reveal/Zoom";
 const MySkills = [
   {
     title: "Html",
@@ -42,35 +42,36 @@ const MysecSkills = [
 ];
 
 function Skills() {
- 
   return (
+    <>
+    <div className="skills-name">My Skills</div>
     <div className="top-skills ">
-       <h1 className="skills-name">My Skills</h1> 
-    <div className="skills-main">
-    <Zoom>
-      <div className="skills">
-        <div className="my-skills-left">
-          {MySkills.map((item, index) => (
-            <SkillsItem
-              key={index}
-              title={item.title}
-              percentage={item.percentage}
-            />
-          ))}
-        </div>
-        <div className="my-skills-right">
-          {MysecSkills.map((item, index) => (
-            <SkillsItem
-              key={index}
-              title={item.title}
-              percentage={item.percentage}
-            />
-          ))}
-        </div>
+      <div className="skills-main">
+        <Zoom>
+          <div className="skills">
+            <div className="my-skills-left">
+              {MySkills.map((item, index) => (
+                <SkillsItem
+                  key={index}
+                  title={item.title}
+                  percentage={item.percentage}
+                />
+              ))}
+            </div>
+            <div className="my-skills-right">
+              {MysecSkills.map((item, index) => (
+                <SkillsItem
+                  key={index}
+                  title={item.title}
+                  percentage={item.percentage}
+                />
+              ))}
+            </div>
+          </div>
+        </Zoom>
       </div>
-      </Zoom>
     </div>
-    </div>
+    </>
   );
 }
 

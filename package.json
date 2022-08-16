@@ -1,10 +1,11 @@
 {
-  "homepage": "https://Ashishrajak1.github.io/profile",
+  "homepage": "https://ashishrajak.me",
   "name": "profile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
     "@testing-library/jest-dom": "^5.16.2",
