@@ -56,7 +56,7 @@
   margin: 30px auto 10px auto;
   width: 100px;
   height: 100px;
-  background-image: url("./Photos/D.png");
+  background-image: url("./Photos/C.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 50%;
@@ -71,7 +71,7 @@
   border-radius: 10px 10px 0 0;
   margin: 0 auto;
   background-color: #fff;
-  background-image: url("./Photos/D.png");
+  background-image: url("./Photos/C.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 99999;
@@ -203,5 +203,9 @@
   .about_card:hover .about_p {
     bottom: 3px;
     left: 40px;
+  }
+  .about_card {
+    animation-duration: 2s !important;
+    animation-delay: 1s !important;
   }
 }
