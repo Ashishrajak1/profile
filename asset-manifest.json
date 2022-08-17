@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Ashishrajak1.github.io/profile/static/css/main.7762a447.css",
-    "main.js": "/Ashishrajak1.github.io/profile/static/js/main.c3e7991c.js",
-    "static/media/B.jpg": "/Ashishrajak1.github.io/profile/static/media/B.2f0d2edefa12e9b6d0c2.jpg",
-    "static/media/H.jpg": "/Ashishrajak1.github.io/profile/static/media/H.29b3ca8a2e2b0da48b69.jpg",
-    "static/media/G.jpg": "/Ashishrajak1.github.io/profile/static/media/G.066fbd187bf38b97cbc8.jpg",
-    "static/media/D.png": "/Ashishrajak1.github.io/profile/static/media/D.875bb19cc3f269a00ce2.png",
-    "static/media/instagram.png": "/Ashishrajak1.github.io/profile/static/media/instagram.fa0feda0dd7e009db626.png",
-    "static/media/E.jpg": "/Ashishrajak1.github.io/profile/static/media/E.e679d02c860011890f79.jpg",
-    "static/media/C.png": "/Ashishrajak1.github.io/profile/static/media/C.9fc5ce1ae8df0d4fb9ff.png",
-    "static/media/gmail.png": "/Ashishrajak1.github.io/profile/static/media/gmail.69e7ff097b49aaa7db9e.png",
-    "static/media/F.jpg": "/Ashishrajak1.github.io/profile/static/media/F.3ba8950a6e36a3530a39.jpg",
-    "static/media/I.jpg": "/Ashishrajak1.github.io/profile/static/media/I.821b7fd1dd93c1528f57.jpg",
-    "index.html": "/Ashishrajak1.github.io/profile/index.html",
-    "main.7762a447.css.map": "/Ashishrajak1.github.io/profile/static/css/main.7762a447.css.map",
-    "main.c3e7991c.js.map": "/Ashishrajak1.github.io/profile/static/js/main.c3e7991c.js.map"
+    "main.css": "/ashishrajak1.github.io/static/css/main.19e0f4f3.css",
+    "main.js": "/ashishrajak1.github.io/static/js/main.ff97d279.js",
+    "static/media/B.jpg": "/ashishrajak1.github.io/static/media/B.2f0d2edefa12e9b6d0c2.jpg",
+    "static/media/H.jpg": "/ashishrajak1.github.io/static/media/H.29b3ca8a2e2b0da48b69.jpg",
+    "static/media/G.jpg": "/ashishrajak1.github.io/static/media/G.066fbd187bf38b97cbc8.jpg",
+    "static/media/D.png": "/ashishrajak1.github.io/static/media/D.875bb19cc3f269a00ce2.png",
+    "static/media/instagram.png": "/ashishrajak1.github.io/static/media/instagram.fa0feda0dd7e009db626.png",
+    "static/media/E.jpg": "/ashishrajak1.github.io/static/media/E.e679d02c860011890f79.jpg",
+    "static/media/C.png": "/ashishrajak1.github.io/static/media/C.9fc5ce1ae8df0d4fb9ff.png",
+    "static/media/gmail.png": "/ashishrajak1.github.io/static/media/gmail.69e7ff097b49aaa7db9e.png",
+    "static/media/F.jpg": "/ashishrajak1.github.io/static/media/F.3ba8950a6e36a3530a39.jpg",
+    "static/media/I.jpg": "/ashishrajak1.github.io/static/media/I.821b7fd1dd93c1528f57.jpg",
+    "index.html": "/ashishrajak1.github.io/index.html",
+    "main.19e0f4f3.css.map": "/ashishrajak1.github.io/static/css/main.19e0f4f3.css.map",
+    "main.ff97d279.js.map": "/ashishrajak1.github.io/static/js/main.ff97d279.js.map"
   },
   "entrypoints": [
-    "static/css/main.7762a447.css",
-    "static/js/main.c3e7991c.js"
+    "static/css/main.19e0f4f3.css",
+    "static/js/main.ff97d279.js"
   ]
 }
