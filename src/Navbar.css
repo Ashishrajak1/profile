@@ -1,17 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Pacifico&family=Satisfy&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Hurricane&family=Pacifico&family=Satisfy&display=swap");
 .navbar-brand {
-  font-size: 30px;
+  font-size: 28px;
   color: #fff !important;
-  font-family: "Satisfy", cursive !important;
+  font-family:'Courier New', Courier, monospace !important;
   border-bottom: none !important;
 }
 .navbar {
   background-color: #000 !important;
 }
 .navbar .nav-link {
-  font-family: "Courgette", cursive !important;
-  font-size: 1.3rem;
+  font-family:'Courier New', Courier, monospace !important;
+  font-size: 1rem;
   text-transform: capitalize;
   color: #fff !important;
 }
@@ -19,8 +17,10 @@
   font-weight: bold;
   border-bottom: 2px solid #fff;
 }
-.nav-link:hover {
-  color: rgb(47, 170, 66) !important;
+.nav-link:hover,
+.active:hover {
+  color: #c5c5c5 !important;
+  border-color: #c5c5c5;
 }
 
 #navbarSupportedContent {

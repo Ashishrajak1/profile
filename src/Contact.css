@@ -43,7 +43,8 @@ form {
   padding-inline: 5px;
   background-color: #242329;
 }
-input:is(:focus, :valid) {
+input:is(:focus, :valid),
+textarea:is(:focus, :valid){
   outline-color: #d1c5fc;
 }
 
@@ -122,9 +123,9 @@ textarea {
   gap: 8px;
   display: flex;
   align-items: center;
-  font-size: 19px;
+  font-size: 16px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
 }
 .right_detail span {
   font-size: 15px;
@@ -166,7 +167,7 @@ textarea {
   .right_detail {
     margin-bottom: 20px;
     gap: 2px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .right_detail span {
     font-size: 13px;

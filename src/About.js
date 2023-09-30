@@ -44,7 +44,7 @@ const About = () => {
               </div>
             </Zoom>
           </div>
-          <Roll right>
+          {/* <Roll right> */}
             <div className="about-right col-6">
               <div>
                 <p className="about-hedding">
@@ -53,7 +53,7 @@ const About = () => {
 
                 <p className="hedding-sub">
                   <span className="hedding-details">I'm web designer, </span>
-                  and I'm very passionate and dedicated to my work. With 3 years
+                  and I'm very passionate and dedicated to my work. With 1 years
                   experience as a professional web developer, I have acquired
                   the skills and knowledge necessary to make your project a
                   success. I enjoy every step of the design process, from
@@ -61,7 +61,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-          </Roll>
+          {/* </Roll> */}
         </div>
       </div>
     </>
